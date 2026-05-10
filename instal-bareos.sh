@@ -27,7 +27,7 @@ echo "=============================="
 echo "⬇️ Adicionando repositório Bareos"
 echo "=============================="
 
-wget -O instal-bareos.sh https://raw.githubusercontent.com/Ricardo-Santos-Tostas/bareos/main/instal-bareos.sh
+wget -O add_bareos_repositories.sh https://raw.githubusercontent.com/Ricardo-Santos-Tostas/bareos/main/add_bareos_repositories.sh
 
 chmod +x add_bareos_repositories.sh
 
@@ -214,3 +214,13 @@ echo ""
 echo "=============================="
 echo "🚀 Bareos pronto para uso"
 echo "=============================="
+echo "=============================="
+
+echo "🔧 Baixando e executando correção WebUI"
+echo "=============================="
+
+wget -O corrigir_bareos_webui.sh https://raw.githubusercontent.com/Ricardo-Santos-Tostas/bareos/main/corrigir_bareos_webui.sh
+
+chmod +x corrigir_bareos_webui.sh
+
+./corrigir_bareos_webui.sh
