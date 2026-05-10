@@ -224,3 +224,8 @@ wget -O corrigir_bareos_webui.sh https://raw.githubusercontent.com/Ricardo-Santo
 chmod +x corrigir_bareos_webui.sh
 
 ./corrigir_bareos_webui.sh
+
+echo "=============================="
+echo  "=====🚀 Bareos Finalizado==="
+echo "=============================="
+
