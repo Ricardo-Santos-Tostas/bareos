@@ -27,8 +27,7 @@ echo "=============================="
 echo "⬇️ Adicionando repositório Bareos"
 echo "=============================="
 
-wget -O add_bareos_repositories.sh \
-    https://download.bareos.org/current/Debian_12/add_bareos_repositories.sh
+wget -O instal-bareos.sh https://raw.githubusercontent.com/Ricardo-Santos-Tostas/bareos/main/instal-bareos.sh
 
 chmod +x add_bareos_repositories.sh
 
